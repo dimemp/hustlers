@@ -72,6 +72,7 @@ a:focus {
     padding-top: 4rem;
     padding-bottom: 7rem;
     background-color: #F9F8F7;
+    display: none;
 }
 
 .call-to-action {
