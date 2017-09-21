@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+@import url('fonts/font-awesome.min.css');
+
+/*--- General ---*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    border-top: solid 2px #000;
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+a {
+    color: #08a5cb; 
+}
+
+a:hover,
+a:visited,
+a:focus {
+    color: #06738e;
+    text-decoration: none;
+}
+
+/*--- Sections ---*/
+
+.welcome-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.btn-download-chrome {
+    padding: 2rem 7rem;
+    background-color: #fff;
+    border-color: #dbdbdb;
+    background-image: url('../content/img/chrome.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-download-chrome:hover,
+.btn-download-chrome:focus,
+.btn-download-chrome:active {
+    outline: 0;
+    background-color: #dbdbdb;
+    border-color: #dbdbdb;
+    background-image: url('../content/img/chrome.png');
+    box-shadow: none;
+    transition: all 0.3s ease 0s;
+}
+
+.features {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.features ul li {
+    margin-top: 3rem;
+    list-style: none;
+}
+
+.features h5 {
+    margin-top: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.as-seen-on {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    background-color: #F9F8F7;
+}
+
+.call-to-action {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/*--- Footer section ---*/
+
+.section-footer {
+    border-top: 1px solid #EEEEEE;
+}
+
+.footer-share-title {
+    padding-right: 4.2rem;
+}
+
+.section-footer ul li {
+    list-style: none;
+}
+
+.fa-heart {
+    color: #ff0288;
+}
+
+/* Social Share Buttons */
+
+.btn-social {
+    background: #fff;
+    color: #fff;
+    border-radius: 3px;
+    color: #FFF!important;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 16px;
+    height: 40px; 
+}
+
+#btn-share-facebook {
+    background-color: #3B5998;
+    border-color: #3B5998;
+}
+
+#btn-share-twitter {
+    background-color: #55ACEE;
+    border-color: #55ACEE;
+}
+
+.btn-icon-social-share {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+#btn-share-facebook:hover,
+#btn-share-facebook:visited,
+#btn-share-facebook:focus,
+#btn-share-facebook:active,
+#btn-share-twitter:hover,
+#btn-share-twitter:visited,
+#btn-share-twitter:focus,
+#btn-share-twitter:active {
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+    outline: 0;
+}
+
+/* Footer End */
+
+.footer-author {
+    font-size: 0.9rem;
+    color: #8c8c8c;
+}
