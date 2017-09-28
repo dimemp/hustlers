@@ -20,7 +20,7 @@ a {
 }
 
 a:hover,
-a:visited,
+a:active,
 a:focus {
     color: #06738e;
     text-decoration: none;
@@ -130,11 +130,9 @@ a:focus {
 }
 
 #btn-share-facebook:hover,
-#btn-share-facebook:visited,
 #btn-share-facebook:focus,
 #btn-share-facebook:active,
 #btn-share-twitter:hover,
-#btn-share-twitter:visited,
 #btn-share-twitter:focus,
 #btn-share-twitter:active {
     background-color: #000;
